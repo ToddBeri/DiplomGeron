@@ -219,6 +219,15 @@ h1.m3 {
   color: rgb(0, 202, 105);
   border-color: rgb(0, 202, 105);
 }
+.strategy .statistic-card:hover p {
+  color: rgb(0, 202, 105);
+}
+.strategy .statistic-card:hover svg .s {
+  stroke: rgb(0, 202, 105);
+}
+.strategy .statistic-card:hover svg .c {
+  fill: rgb(0, 202, 105);
+}
 .strategy .statistic-card svg {
   margin-top: 20px;
 }

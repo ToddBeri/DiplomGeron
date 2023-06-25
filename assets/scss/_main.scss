@@ -204,6 +204,17 @@ h1{
       &:hover{
         color: $green;
         border-color: $green;
+        p{
+          color: $green;
+        }
+        svg{
+          .s{
+            stroke: $green;
+          }
+          .c{
+            fill: $green;
+          }
+        }
       }
       svg{
         margin-top: 20px;
